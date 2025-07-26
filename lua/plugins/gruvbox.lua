@@ -1,4 +1,3 @@
-if true then
 return {
   -- add gruvbox
   { "ellisonleao/gruvbox.nvim" },
