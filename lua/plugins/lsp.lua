@@ -4,8 +4,8 @@ return {
     dependencies = {
       -- Adiciona suporte ao Ruff LSP
       { "neovim/nvim-lspconfig", opts = {} },
-      { "williamboman/mason.nvim" },
-      { "williamboman/mason-lspconfig.nvim" },
+      { "mason-org/mason.nvim" },
+      { "mason-org/mason-lspconfig.nvim" },
     },
     opts = {
       servers = {
