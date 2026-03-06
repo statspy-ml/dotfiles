@@ -1,6 +1,6 @@
 if true then
   return {}
-end -- No seu arquivo de configuração lua (por exemplo, ~/.config/nvim/lua/plugins/linting.lua)
+end
 return {
   "nvimtools/none-ls.nvim",
   optional = true,
