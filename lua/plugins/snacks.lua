@@ -10,6 +10,7 @@ return {
     statuscolumn = { enabled = true },
     words = { enabled = true },
     dashboard = { example = "github" },
+    image = { enabled = true },
     -- Enable other snacks modules as needed
   },
 }
