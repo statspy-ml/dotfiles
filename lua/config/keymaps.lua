@@ -3,3 +3,10 @@
 -- Add any additional keymaps here
 vim.keymap.set("n", "<Leader>o", "o<Esc>", { noremap = true, silent = true })
 vim.keymap.set("n", "<Leader>O", "O<Esc>", { noremap = true, silent = true })
+
+vim.keymap.set("n", "<leader>fF", function()
+  require("telescope.builtin").find_files({
+    hidden = true,
+    no_ignore = true,
+  })
+end, { desc = "Find files (all)" })
